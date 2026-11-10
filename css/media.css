@@ -1,0 +1,705 @@
+
+
+
+.big{
+    display: none;
+}
+
+
+
+@media screen and (max-width:575px) {
+.border{
+    padding-top: 90px;
+}
+.navbar{
+    padding: 10px 15px;
+}
+.leftside{
+    margin-left: 0;
+}
+    .leftside h1{
+        font-size: 24px;
+    }
+.middleside,.rightside{
+    display: none;
+}
+.big{
+    display: block;
+    font-size: 22px;
+    line-height: 1;
+    padding: 5px 9px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 6px;
+    box-shadow: 3px 3px 0 black;
+}
+.hero{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+    }
+    .hero-text,
+    .hero-img{
+        width: 100%;
+    }
+    h2{
+        font-size: 46px;
+        line-height: 1.15;
+    }
+    .hero-text p{
+        font-size: 17px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .hero-text p br{
+        display: none;
+    }
+    .buttons{
+        gap: 12px;
+    }
+    .btn{
+        flex: 1;
+        justify-content: center;
+        font-size: 14px;
+        padding: 12px 10px;
+       
+    }
+    .icon{
+        width: 20px;
+        height: 20px;
+    }
+    .edit-img{
+        width: 100%;
+        height: 280px;
+        transform: rotate(0deg);
+    }
+    .edit-img:hover{
+        transform: translate(-3px -3px);
+    }
+    .featured{
+        right: -5px;
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+   
+    .artic{
+        grid-template-columns: 1fr;
+        margin-top: 50px;
+    }
+    .badge-2{
+        margin-bottom: 25px;
+    }
+    h3{
+        font-size: 34px;
+      
+    }
+    .fresh{
+        display: none;
+    }
+    .edge-1,.edge-2,.edge-3{
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+    }
+    .new,.hot,.viral{
+        width: 70%;
+    }
+    .user{
+        margin: 0;
+        height: 150px;
+    }
+    .new-1,.hot-1,.viral-1{
+        left: auto;
+        right: -12px;
+        top: -10px;
+    }
+    .tech,.design,.culture{
+        margin-left: 0;
+    }
+    h4,h5,h6{
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    .text p{
+        font-size: 16px;
+        line-height: 1.7;
+        padding: 12px 0;
+    }
+    .text p br{
+        display: none;
+    }
+    .details{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6px;
+    }
+    .detail-2,.detail-3{
+        padding-left: 0;
+    }
+    .load{
+        font-size: 16px;
+        padding: 15px 25px;
+    }
+
+
+    .trend{
+        position: static;
+    }
+    .box{
+        padding: 25px 20px;
+    }
+    .box-title{
+        font-size: 26px;
+    }
+    h8,h9,h10{
+        font-size: 17px;
+    }
+    .num-red,.num-blue,.num-purple{
+        font-size: 32px;
+    }
+    h12{
+        font-size: 32px;
+    }
+    .inter p{
+        font-size: 16px;
+    }
+    .inter::after{
+        right: 50%;
+        transform: translateX(50%) rotate(1deg);
+    }
+    .person{
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+    .person-1,.person-2,.person-3{
+        width: 100%;
+    }
+    .person-1 p br,.person-2 p br,.person-3 p br{
+        display: none;
+    }
+    .alex,.arnold,.mike{
+        width: 45%;
+    }
+    h13,h15,h17{
+        font-size: 24px;
+    }
+
+    .join{
+        margin-top: 50px;
+    }
+    h19{
+        font-size: 32px;
+    }
+    .digital{
+        font-size: 16px;
+    }
+    .line::after{
+        right: 50%;
+        transform: translateX(50%) rotate(-2deg);
+    }
+    .rebet{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .bigger,
+    .saying{
+        width: 100%;
+        flex: none;
+    }
+    .bigger{
+        margin-top: 60px;
+    }
+    h20{
+        font-size: 26px;
+    }
+    .paragh-1{
+        font-size: 16px;
+        padding: 15px;
+    }
+    .paragh-1 br{
+        display: none;
+    }
+    .key-1,.key-2,.key-3,.key-4{
+        padding: 8px 0;
+    }
+    .true,.discord,.star,.pen{
+        flex-shrink: 0;
+        width: 40px;
+        height: 40px;
+    }
+    .pen-1,.pen-2,.pen-3,.pen-4{
+        font-size: 16px;
+    }
+    .btn2{
+        margin-left: 0;
+        font-size: 16px;
+        padding: 18px 25px;
+    }
+
+
+    .saying{
+        margin-top: 10px;
+        margin-left: 0;
+        padding: 20px 15px;
+    }
+    .ques{
+        font-size: 22px;
+    }
+    .tell-1 > p, .tell-2 > p, .tell-3 > p{
+        font-size: 15px;
+        padding: 15px;
+    }
+    .tell-1 p br, .tell-2 p br, .tell-3 p br{
+        display: none;
+    }
+    .human-1,.human-2,.human-3{
+        width: 50px;
+        height: 50px;
+    }
+
+  
+    .navbar2{
+        padding: 50px 20px 10px;
+        margin-top: 50px;
+    }
+    .footer{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .footer1,.footer2,.footer3{
+        width: 100%;
+    }
+    .footer1 img{
+        width: 50px;
+    }
+    .footer1 p,
+    .footer3 p{
+        font-size: 16px;
+    }
+    .footer1 p br,
+    .footer3 p br{
+        display: none;
+    }
+    h21{
+        font-size: 24px;
+        margin-bottom: 23px;
+    }
+    .mail,.sub{
+        width: 100%;
+        font-size: 16px;
+        padding: 16px;
+    }
+    .last{
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+        margin: 40px 0 30px;
+    }
+    .font{
+        font-size: 14px;
+    }
+    .private{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+    }
+    .policy{
+        font-size: 13px;
+        padding: 5px 8px;
+    }
+}
+/* sm */
+@media screen and (min-width:576px) {
+
+
+    .middleside,
+    .rightside{
+        display: none;
+    }
+    .big{
+        display: block;
+        font-size: 26px;
+        line-height: 1;
+        padding: 6px 10px;
+        background-color: white;
+        border: 2px solid black;
+        border-radius: 6px;
+        box-shadow: 3px 3px 0 black;
+       
+    }
+    .leftside h1{
+        font-size: 28px;
+    }
+
+   
+    .hero{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+    }
+    .hero-text,
+    .hero-img{
+        width: 100%;
+    }
+    h2{
+        font-size: 60px;
+    }
+    .hero-text p{
+        font-size: 20px;
+    }
+    .edit-img{
+        width: 100%;
+        height: 360px;
+        transform: rotate(0deg);
+    }
+    .edit-img:hover{
+        transform: translate(-3px, -3px);
+    }
+
+   
+    .artic{
+        grid-template-columns: 1fr;
+    }
+    .fresh{
+        display: none;
+    }
+    .edge-1,.edge-2,.edge-3{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .new,.hot,.viral{
+        width: 55%;
+    }
+    .user{
+        margin: 0;
+        height: 190px;
+    }
+    .new-1,.hot-1,.viral-1{
+        left: auto;
+        right: -12px;
+        top: -10px;
+    }
+    .tech,.design,.culture{
+        margin-left: 0;
+    }
+    .text p br{
+        display: none;
+    }
+    .details{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6px;
+    }
+    .detail-2,.detail-3{
+        padding-left: 0;
+    }
+    .trend{
+        position: static;
+    }
+
+    .person{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .person-1,.person-2,.person-3{
+        width: 100%;
+    }
+    .person-1 p br,.person-2 p br,.person-3 p br{
+        display: none;
+    }
+    .alex,.arnold,.mike{
+        width: 30%;
+    }
+    .inter::after{
+        right: 50%;
+        transform: translateX(50%) rotate(1deg);
+    }
+
+    
+    .rebet{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .bigger,
+    .saying{
+        width: 100%;
+        flex: none;
+    }
+    .bigger{
+        margin-top: 70px;
+    }
+    .saying{
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .paragh-1 br,
+    .tell-1 p br, .tell-2 p br, .tell-3 p br{
+        display: none;
+    }
+    .true,.discord,.star,.pen{
+        flex-shrink: 0;
+    }
+    .line::after{
+        right: 50%;
+        transform: translateX(50%) rotate(-2deg);
+    }
+
+   
+    .navbar2{
+        padding: 60px 40px 10px;
+    }
+    .footer{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .footer1,.footer2,.footer3{
+        width: 100%;
+    }
+    .footer1 p br,
+    .footer3 p br{
+        display: none;
+    }
+.last{
+        flex-direction: column;
+       justify-content: center;
+        gap: 15px;
+        text-align: center;
+    }
+    .private{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+   
+    
+}
+/* md */
+@media screen and (min-width:768px) {
+   
+    .edge-1,.edge-2,.edge-3{
+        flex-direction: row;
+        gap: 25px;
+    }
+    .new,.hot,.viral{
+        width: 35%;
+    }
+    .user{
+        height: 170px;
+    }
+    
+    .footer{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .footer1{
+        flex: 1 1 100%;
+    }
+    .footer2{
+        flex: 1;
+    }
+    .footer3{
+        flex: 2;
+    }
+    .last{
+        flex-direction: row;
+        text-align: left;
+    }
+}
+/* lg */
+@media screen and (min-width:992px) {
+    .middleside.rightside{
+        display: block;
+    }
+ 
+   
+    .navbar{
+        padding: 10px 15px;
+    }
+    .leftside h1{
+        font-size: 28px;
+    }
+    .middleside ul{
+        flex-wrap: nowrap;
+        gap: 0;
+
+    }
+    .middleside li::after{
+        margin: 0 10px;
+    }
+    
+    .hero{
+        flex-direction: row;
+        align-items: center;
+        gap: 50px;
+    }
+    .hero-text,
+    .hero-img{
+        width: 50%;
+    }
+    h2{
+        font-size: 58px;
+    }
+    .edit-img{
+        width: 95%;
+        height: 380px;
+        transform: rotate(2deg);
+    }
+    .edit-img:hover{
+        transform: translate(-3px, -3px) rotate(2deg);
+    }
+
+  
+    .artic{
+        grid-template-columns: 2fr 1fr;
+    }
+    .fresh{
+        display: inline-block;
+    }
+    .trend{
+        flex-direction: column;
+        position: sticky;
+    }
+    .new,.hot,.viral{
+        width: 30%;
+    }
+    .user{
+        margin: 10px 15px;
+    }
+    .new-1,.hot-1{
+        left: 200px;
+        right: auto;
+        top: 3px;
+    }
+    .viral-1{
+        left: 195px;
+        right: auto;
+        top: 2px;
+    }
+    .tech,.design,.culture{
+        margin-left: 10px;
+    }
+
+   
+    .hero-text p br,
+    .text p br,
+    .person-1 p br,.person-2 p br,.person-3 p br,
+    .paragh-1 br,
+    .tell-1 p br, .tell-2 p br, .tell-3 p br,
+    .footer1 p br,
+    .footer3 p br{
+        display: inline;
+    }
+
+
+    .person{
+        flex-flow: wrap row;
+        gap: 30px 4%;
+    }
+    .person-1,.person-2,.person-3{
+        width: 48%;
+    }
+    .alex,.arnold,.mike{ width: 40%;}
+    .details{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px 20px;
+    }
+
+  
+    .rebet{
+        flex-direction: row;
+    }
+    .bigger,
+    .saying{
+        flex: 1;
+    }
+    .bigger{
+        margin-top: 130px;
+    }
+    .saying{
+        margin-top: 110px;
+        margin-left: 20px;
+    }
+
+   
+    .navbar2{
+        padding: 90px 60px 20px;
+    }
+    .footer{
+        flex-wrap: nowrap;
+    }
+    .footer1{
+        flex: 2;
+    }
+    .last{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 13px;
+    }
+.private{
+    justify-content: center;
+}
+
+    
+}
+/* xl */
+@media screen and (min-width:1200px) {
+     .middleside,
+    .rightside{
+        display: block;
+    }
+    .middleside li::after{
+        margin: 0 15px;
+    }
+    .big{
+        display: none;
+    }
+    .leftside h1{
+        font-size: 32px;
+    }
+    h2{
+        font-size: 68px;
+    }
+    .navbar2{
+        padding: 90px 100px 20px;
+    }
+      .person{
+        flex-flow: nowrap row;
+        gap: 20px;
+    }
+    .person-1,.person-2,.person-3{
+        width: 32%;
+    }
+     .person-1 p br,.person-2 p br,.person-3 p br{
+        display: inline;
+     }
+    .alex,.arnold,.mike{ 
+        width: 35%;}
+    .details{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px 20px;
+    }
+     .last{
+        flex-direction: row;
+        justify-content:space-between;
+        text-align: left;
+        gap: 20px;
+    }
+.private{
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    gap: 5px;
+}
+}
+
+
+/* 2xl */
+@media screen and (min-width:1400px) {
+
+    
+}
